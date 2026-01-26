@@ -1,0 +1,33 @@
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+.layoutContainer {
+  display: flex;
+}
+
+.layoutMenu {
+  flex: 1;
+  padding: 5px 20px;
+}
+.layoutOtulet {
+  flex: 6;
+  padding: 5px 20px;
+}
+$main-bg: #2a3447;
+$soft-bg: #384256;
+$dark-bg: #222b3c;
+$main-color: white;
+$soft-color: #ddd;
+$dark-color: #2a3447;
+
+.layout {
+  background-color: $main-bg;
+  color: $main-color;
+}
+.light {
+  background-color: white;
+  color: black;
+}

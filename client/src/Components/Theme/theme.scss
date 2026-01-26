@@ -1,0 +1,39 @@
+.theme {
+  cursor: pointer;
+  width: 35px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 2px;
+  position: relative;
+  .icon-sun {
+    font-size: 16px;
+    color: yellow;
+  }
+  .icon-moon {
+    font-size: 14px;
+  }
+  .ball {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #222b3c;
+    border: 1px solid white;
+    position: absolute;
+    left: 1px;
+    // right: 1px;
+    bottom: 1;
+    z-index: 9;
+    transition: all 0.2s ease-in;
+  }
+  .dark {
+    transform: translateX(19px);
+    right: 1px;
+  }
+}
+
+.themelight {
+  border: 1px solid black;
+}

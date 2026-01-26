@@ -1,0 +1,28 @@
+.filterBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .filterBar-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .filterBar-select {
+    padding: 7px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .filterBar-select:focus {
+    outline: none;
+  }
+  .filterBar-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 3px;
+  }
+  .filterBar-active {
+    background-color: red;
+    color: white;
+  }
+}

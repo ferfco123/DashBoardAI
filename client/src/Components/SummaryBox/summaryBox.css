@@ -1,0 +1,17 @@
+.summary {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: max-content;
+  margin-bottom: 20px;
+}
+.summary-title {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.summary-data {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}

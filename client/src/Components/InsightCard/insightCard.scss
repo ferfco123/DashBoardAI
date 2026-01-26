@@ -1,0 +1,25 @@
+.i-card {
+  .i-period {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      padding: 10px 15px;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}

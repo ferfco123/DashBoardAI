@@ -1,0 +1,55 @@
+.chartBox {
+  height: 70px;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .title {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 16px;
+      width: max-content;
+    }
+    .link {
+      color: skyblue;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .chart {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+
+    .chartContainer {
+      height: 100px;
+      flex: 1;
+    }
+    .textContainer {
+      flex: 1;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: end;
+      width: 100%;
+      .less {
+        color: red;
+      }
+      .pos {
+        color: rgb(57, 227, 57);
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.navbar {
+  padding: 5px 20px;
+
+  .navbarContainer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logoContainer {
+      .title {
+        display: none;
+      }
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .menuOptions {
+        padding: 5px 10px;
+        border: 1px solid #384256;
+        border-radius: 10px;
+        text-decoration: none;
+        color: inherit;
+      }
+      .active {
+        background-color: red;
+      }
+    }
+    .logoContainer {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      background-color: transparent;
+    }
+    .optionsContainer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .profileContainer {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (min-width: 680px) {
+  .navbar {
+    .navbarContainer {
+      .logoContainer {
+        .title {
+          display: block;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navbar {
+    .navbarContainer {
+      .optionsContainer {
+        .profileContainer {
+          display: none;
+
+          @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .badgeContainer {
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              position: relative;
+            }
+
+            .badge {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+              background-color: red;
+              position: absolute;
+              top: -7px;
+              right: -4px;
+              font-size: 12px;
+              font-weight: bold;
+            }
+
+            .userContainer {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+
+              .userImg {
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
