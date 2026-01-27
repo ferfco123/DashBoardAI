@@ -1,7 +1,0 @@
-{
-  "name": "backend-wrapper",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node server/src/config/server.js"
-  }
-}
