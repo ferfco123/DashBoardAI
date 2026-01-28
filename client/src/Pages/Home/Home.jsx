@@ -23,7 +23,7 @@ const Home = () => {
       return res.data;
     },
   });
-
+  console.log("data", data);
   return (
     <div className="home">
       <div className="box box7">
