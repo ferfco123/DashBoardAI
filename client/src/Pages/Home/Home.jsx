@@ -1,21 +1,10 @@
 import { api } from "../../axios/api";
-import ViewChart from "../../Components/BarChart/ViewChart";
+
 import BigChart from "../../Components/BigChart/BigChart";
 
-import ChartBox from "../../Components/ChartBox/ChartBox";
-import CircleChart from "../../Components/circleChart/CircleChart";
 import SummaryBox from "../../Components/SummaryBox/SummaryBox";
 import TopBox from "../../Components/TopBox/TopBox";
-import {
-  chartBoxProduct,
-  chartBoxRatio,
-  chartBoxRevenue,
-  chartBoxUser,
-  COLORS,
-  leads,
-  revenues,
-  views,
-} from "../../data/data";
+
 import "./home.scss";
 import { useQuery } from "@tanstack/react-query";
 

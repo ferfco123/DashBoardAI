@@ -1,0 +1,38 @@
+.topbox {
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .usercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    .user {
+      display: flex;
+      gap: 15px;
+    }
+    .img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .userInfo {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+
+      span {
+        display: block;
+        font-size: 14px;
+      }
+    }
+  }
+}
