@@ -1,11 +1,11 @@
-// import app from "../../index.js"
-import app from "/workspace/server/index.js"
+import app from "../../index.js"
+
 import { connection } from "./db.connection.js"
 import "../cron/snapshots.cron.js"
 
 
-// const port = process.env.PORT || 5000
-const port = 8080
+
+const port = process.env.PORT || 8080
 
 app.listen(port, () => {
     console.log("port", port)
