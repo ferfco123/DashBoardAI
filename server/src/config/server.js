@@ -1,4 +1,5 @@
-import app from "../../index.js"
+// import app from "../../index.js"
+import app from "/workspace/server/index.js"
 import { connection } from "./db.connection.js"
 import "../cron/snapshots.cron.js"
 
@@ -11,3 +12,4 @@ app.listen(port, () => {
     connection()
     console.log("Backend is connected")
 })
+
