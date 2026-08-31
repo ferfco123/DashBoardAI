@@ -150,3 +150,4 @@ const preview = await Sales.aggregate(pipeline)
 await SalesSnapshots.insertMany(preview)
 console.log("PREVIEW SNAPSHOTS")
 console.dir(preview, { depth: null })
+

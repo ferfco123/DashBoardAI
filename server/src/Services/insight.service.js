@@ -9,6 +9,7 @@ export const generateInsight = async ({ period }) => {
     try {
 
 
+
         const snapshots = await SalesSnapshots.find({ period }).sort({ from: -1 }).limit(2)
 
         if (snapshots.length < 2) return

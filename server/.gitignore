@@ -9,6 +9,8 @@ yarn.lock
 # Environment variables
 .env
 
+# SeedsData
+SeedData
 # Logs
 logs
 *.log
